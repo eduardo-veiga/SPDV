@@ -32,7 +32,7 @@ class MainWindow:
         produtos_button.grid(row=0, column=0, padx=5, pady=5)
 
         cadastrar_produto_button = ttk.Button(right_frame, text="Cadastrar Produto", command=self.abrir_janela_cadastro_produto)
-        cadastrar_produto_button.grid(row=2, column=0, padx=5, pady=5)
+        cadastrar_produto_button.grid(row=1, column=0, padx=5, pady=5)
 
     def show_pedidos(self):
         if self.pedidos_window is None:
